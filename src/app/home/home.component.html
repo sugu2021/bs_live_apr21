@@ -1,34 +1,39 @@
 <!-- <div class="background-pattern"></div> -->
 
 
+<button type="btn" class="btn_enquiry" (click)="openModal(template)" role="button">Enquiry</button>
+
+
 <!--section 001  -->
 <div class="container-fluid top_pad">
 
   <div class="col-md-10 mx-auto mt-5">
     <div class="row">
       <div class="col-md-6 mob_pad">
-        <!-- <div class="row">
-          <div class="col-md-8 mx-auto"> -->
-        <h2>Build Your Business Online with One of the Top Digital Marketing Agency in Bangalore</h2>
 
-        <p>Today in this techno digital world, one has to be active on the digital platform. Thus, to set a new
+        <h2>Build Your Business Online with One of the Top Digital Marketing Agency in Bangalore</h2>
+        <br>
+
+        <p class="common_font">Today in this techno digital world, one has to be active on the digital platform. Thus,
+          to set a new
           business-standard there is a need for a marketing frontier to develop a marketing strategy that helps an
           organization to enhance brand awareness and to increase the return
           of investment (ROI).
         </p>
+        <br>
 
-        <p>As a digital marketing
+        <p class="common_font">As a digital marketing
           agency in Bangalore, we help businesses to boost their brand on the online marketing platform by using
           ground breaking technologies.</p>
-        <!-- </div>
-        </div> -->
+
       </div>
 
 
       <div class="col-md-6">
         <div class="card">
           <div class="card-body">
-            <h4>Get Quote</h4>
+            <h2 style="text-align: center;">Get Quote</h2>
+            <br>
             <form [formGroup]="enquiryModal1" (ngSubmit)="onSubmitEnquiryModal1()" novalidate>
               <div class="form-group">
                 <input type="text" formControlName="fName" class="form-control"
@@ -94,7 +99,10 @@
                 </div>
               </div>
               <br>
-              <button type="submit" class="btn btn-primary text-center bg-red border-0">Submit</button>
+
+              <div class="form-group  text-center">
+                <button type="submit" class="btn btn-primary text-center bg-red border-0">Submit</button>
+              </div>
 
             </form>
           </div>
@@ -108,7 +116,7 @@
 <!--section 001  -->
 
 <!--Our Digital Marketing Expertise -->
-<div class="container-fluid" style="padding: 5% 0%;background-color: #EB2922;">
+<div class="container-fluid" style="padding: 5% 0%;background: linear-gradient(to right, #EB2922 0%, #F7562E 100%);">
 
   <div class="col-md-10 mx-auto">
     <div class="row">
@@ -117,11 +125,15 @@
 
         <h2>Our Digital Marketing Expertise</h2>
 
-        <p>There always comes a question in mind that how
+        <br>
+
+        <p class="common_font">There always comes a question in mind that how
           any digital marketing company in bangalore will enhance business
           branding and ultimately affects business growth.</p>
 
-        <p>Thus, BrandStory is the answer to your question. We,
+        <br>
+
+        <p class="common_font">Thus, BrandStory is the answer to your question. We,
           as one of the top digital marketing agencies in Bangalore offer services that build the brand reputation and
           help to
           increase the reach of your products or service to your target audience to know about your products
@@ -132,116 +144,6 @@
 
 
       <div class="col-md-6">
-
-        <!-- <div class="row text-center">
-
-          <div class="services-card">
-            <div class="card-deck">
-
-              <div class="card services-card-shadow">
-                <div class="card-body">
-                  <p class="card-text">Search Engine Optimization</p>
-
-                </div>
-              </div>
-
-              <div class="card services-card-shadow">
-                <div class="card-body">
-                  <p class="card-text">Search Engine Marketing</p>
-
-                </div>
-              </div>
-
-              <div class="card services-card-shadow">
-                <div class="card-body">
-                  <p class="card-text">Social Media
-                    Optimization</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="services-card">
-            <div class="card-deck">
-
-              <div class="card services-card-shadow">
-                <div class="card-body">
-                  <p class="card-text">Social Media Marketing</p>
-
-                </div>
-              </div>
-
-              <div class="card services-card-shadow">
-                <div class="card-body">
-                  <p class="card-text">Email Marketing</p>
-
-                </div>
-              </div>
-
-              <div class="card services-card-shadow">
-                <div class="card-body">
-                  <p class="card-text">Content Writing</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="services-card">
-            <div class="card-deck">
-
-              <div class="card services-card-shadow">
-                <div class="card-body">
-                  <p class="card-text">Pay Per Click</p>
-
-                </div>
-              </div>
-
-              <div class="card services-card-shadow">
-                <div class="card-body">
-                  <p class="card-text">Mobile Marketing</p>
-
-                </div>
-              </div>
-
-              <div class="card services-card-shadow">
-                <div class="card-body">
-                  <p class="card-text">UI/UX Services</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="services-card">
-            <div class="card-deck">
-
-              <div class="card services-card-shadow">
-                <div class="card-body">
-                  <p class="card-text">Website designing</p>
-
-                </div>
-              </div>
-
-              <div class="card services-card-shadow">
-                <div class="card-body">
-                  <p class="card-text">Development</p>
-
-                </div>
-              </div>
-
-              <div class="card services-card-shadow">
-                <div class="card-body">
-                  <p class="card-text">Mobile App development</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div> -->
-
 
         <div class="row text-center">
 
@@ -359,12 +261,13 @@
 </div>
 <!--Our Digital Marketing Expertise  -->
 
+<!-- Vedio section -->
 <div class="container-fluid" style="padding: 5% 0%;background-color: #F5F5F5;">
   <div class="col-md-9 mx-auto">
     <div class="row">
       <div class="col-md-6">
 
-        <div class="col-md-10 mx-auto text-center">
+        <div class="col-md-10 mx-auto text-center mt-5">
           <p class="sol_red_text" style="color: #9F9999;">LEARN MORE ABOUT OUR <span
               style="color: #C53631;">SOLUTIONS</span></p>
         </div>
@@ -401,13 +304,14 @@
 
         </div> -->
 
-        <iframe src="https://player.vimeo.com/video/333046100" width="640" height="360" frameborder="0"
+        <iframe src="https://player.vimeo.com/video/333046100" width="100%" height="360" frameborder="0"
           allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
       </div>
     </div>
   </div>
 </div>
+<!-- Vedio section -->
 
 <!-- service section start -->
 <div class="container py-5">
@@ -433,42 +337,68 @@
 
           <div class="card services-card-shadow">
             <div class="card-body">
-              <h5 class="card-title">Digital Marketing Strategy</h5>
-              <p class="card-text">Digital is here to stay and grow exponentially. Increased visibility, marketing
-                opportunity at efficient budgets, and customer engagement – The three benefits of being in digital and
-                breathing digital. </p>
+              <div class="service_card_h100">
+                <h5 class="card-title">Digital Marketing Strategy</h5>
+              </div>
+              <div class="service_card_h201">
+                <p class="card-text">Digital is here to stay and grow exponentially. Increased visibility, marketing
+                  opportunity at efficient budgets, and customer engagement – The three benefits of being in digital and
+                  breathing digital. </p>
+
+              </div>
               <p class="card-text"><a href="digital/google-marketing" class="txt-red">Read More >></a></p>
             </div>
           </div>
 
           <div class="card services-card-shadow">
             <div class="card-body">
-              <h5 class="card-title">UI/UX</h5>
-              <p class="card-text">Never miss a customer again! Incorporate these two components for a high performance
-                website or app. Did you know that 94% of your customers are going to navigate off your website or app in
-                case of the not finding what they want in less that 3-5 secs. Need an audit?</p>
+              <div class="service_card_h100">
+                <h5 class="card-title">UI/UX</h5>
+              </div>
+              <div class="service_card_h201">
+                <p class="card-text">Never miss a customer again! Incorporate these two components for a high
+                  performance
+                  website or app. Did you know that 94% of your customers are going to navigate off your website or app
+                  in
+                  case of the not finding what they want in less that 3-5 secs. Need an audit?</p>
+              </div>
               <p class="card-text"><a href="uiux/web" class="txt-red">Read More >></a></p>
             </div>
           </div>
 
           <div class="card services-card-shadow">
             <div class="card-body">
-              <h5 class="card-title">SEO</h5>
-              <p class="card-text">30 – 60 – 90 days. See the difference. Get better in search ranking. Good SEO means
-                higher visibility. Get customers to visit your websites and grow your leads organically without spending
-                on advertisement. Afterall, SEO should contribute your 60% of the traffic for a healthy traffic ratio.
-              </p>
+              <div class="service_card_h100">
+                <h5 class="card-title">SEO</h5>
+              </div>
+
+              <div class="service_card_h201">
+
+                <p class="card-text">30 – 60 – 90 days. See the difference. Get better in search ranking. Good SEO means
+                  higher visibility. Get customers to visit your websites and grow your leads organically without
+                  spending
+                  on advertisement. Afterall, SEO should contribute your 60% of the traffic for a healthy traffic ratio.
+                </p>
+              </div>
+
               <p class="card-text"><a href="digital/seo" class="txt-red">Read More >></a></p>
             </div>
           </div>
 
           <div class="card services-card-shadow">
             <div class="card-body">
-              <h5 class="card-title">Email Marketing</h5>
-              <p class="card-text">The longevity of emails proves that it is an easiest and effective way to reach out
-                to customers and keep them informed. A third of consumers prefer to receive communication from brands
-                via email as there are three times more email accounts than there are Facebook & Twitter accounts
-                combined. </p>
+              <div class="service_card_h100">
+                <h5 class="card-title">Email Marketing</h5>
+              </div>
+
+              <div class="service_card_h201">
+
+                <p class="card-text">The longevity of emails proves that it is an easiest and effective way to reach out
+                  to customers and keep them informed. A third of consumers prefer to receive communication from brands
+                  via email as there are three times more email accounts than there are Facebook & Twitter accounts
+                  combined. </p>
+              </div>
+
               <p class="card-text"><a href="enterprise/b2b-email-marketing" class="txt-red">Read More >></a></p>
             </div>
           </div>
@@ -484,40 +414,65 @@
 
           <div class="card services-card-shadow">
             <div class="card-body">
-              <h5 class="card-title">PPC</h5>
-              <p class="card-text">PPC Ads has effective targeting. It helps to test different ads which involves
-                targeting keywords through text ads, running ads through remarketing based on their past behaviors, or
-                focusing on specific audience demographics on the display network</p>
+              <div class="service_card_h100">
+                <h5 class="card-title">PPC</h5>
+              </div>
+
+              <div class="service_card_h201">
+                <p class="card-text">PPC Ads has effective targeting. It helps to test different ads which involves
+                  targeting keywords through text ads, running ads through remarketing based on their past behaviors, or
+                  focusing on specific audience demographics on the display network</p>
+              </div>
+
               <p class="card-text"><a href="uiux/mobile-app" class="txt-red">Read More >></a></p>
             </div>
           </div>
 
           <div class="card services-card-shadow">
             <div class="card-body">
-              <h5 class="card-title">SMM</h5>
-              <p class="card-text">Engage and Evolve. Social Media Management helps you convert audience to fans &
-                followers. Expand your brands reach on internet’s hottest social sites. Creative content & seamless
-                execution are the two consistent keys to excel online. Explore the ‘how’ with us.</p>
+              <div class="service_card_h100">
+                <h5 class="card-title">SMM</h5>
+              </div>
+
+              <div class="service_card_h201">
+                <p class="card-text">Engage and Evolve. Social Media Management helps you convert audience to fans &
+                  followers. Expand your brands reach on internet’s hottest social sites. Creative content & seamless
+                  execution are the two consistent keys to excel online. Explore the ‘how’ with us.</p>
+              </div>
+
               <p class="card-text"><a href="digital/smm" class="txt-red">Read More >></a></p>
             </div>
           </div>
 
           <div class="card services-card-shadow">
             <div class="card-body">
-              <h5 class="card-title">Mobile</h5>
-              <p class="card-text">Designing solutions, and serving greater purpose? Get Mobile App Design and
-                Development to work like magic for you and your customers. We define and build your business on the go
-                on the latest Technology. Your proposition is to monetize and ours is to make it mobile ready.</p>
+              <div class="service_card_h100">
+                <h5 class="card-title">Mobile</h5>
+              </div>
+
+              <div class="service_card_h201">
+                <p class="card-text">Designing solutions, and serving greater purpose? Get Mobile App Design and
+                  Development to work like magic for you and your customers. We define and build your business on the go
+                  on the latest Technology. Your proposition is to monetize and ours is to make it mobile ready.</p>
+              </div>
+
               <p class="card-text"><a href="uiux/mobile-app" class="txt-red">Read More >></a></p>
             </div>
           </div>
 
           <div class="card services-card-shadow">
             <div class="card-body">
-              <h5 class="card-title">Web Development</h5>
-              <p class="card-text">Own ultimate, premium, high on performance websites and web portals built on superior
-                and secure technologies. Our capabilities include Static, Dynamic and e Commerce Websites. Be it
-                corporate, blogging or selling, we have you covered.</p>
+              <div class="service_card_h100">
+                <h5 class="card-title">Web Development</h5>
+              </div>
+
+              <div class="service_card_h201">
+                <p class="card-text">Own ultimate, premium, high on performance websites and web portals built on
+                  superior
+                  and secure technologies. Our capabilities include Static, Dynamic and e Commerce Websites. Be it
+                  corporate, blogging or selling, we have you covered.</p>
+              </div>
+
               <p class="card-text"><a href="development/website" class="txt-red">Read More >></a></p>
             </div>
           </div>
@@ -536,10 +491,15 @@
 <div class="container-fluid py-5" style="background-color: #EAF1F9;">
 
   <div class="col-md-8 mx-auto text-center">
+    <div class="uvc-heading-spacer line_only" style="margin-bottom:12px;height:2px;">
+      <span class="uvc-headings-line"
+        style="border-style: solid; border-bottom-width: 2px; border-color: rgb(218, 31, 38); width: 30px; margin: 0px auto;"></span>
+    </div>
 
     <h2>Our Digital Marketing Process</h2>
 
-    <p>To make any business, product, individual, or brand successful on a digital marketing platform, there is a
+    <p class="common_font">To make any business, product, individual, or brand successful on a digital marketing
+      platform, there is a
       need for a successful digital marketing campaign. To make clients & businesses stand out from the crowd
       on the digital media platform, </p>
 
@@ -551,14 +511,23 @@
       <div class="services-card">
         <div class="card-deck">
 
-          <div class="card services-card-shadow">
+          <div class="card services-card-shadow redbg_card">
             <div class="card-body">
-              <h5 class="card-title">Lets have a look at our
-                digital marketing process</h5>
+              <p class="card-title card_red1">Lets have a look at our
+                digital marketing process</p>
+
+              <hr class="redcard_hr">
+
               <p class="card-text">we have our digital marketing process plan a strategy for a digital
                 marketing campaign that fits your project and make it a successful one. we have our digital marketing
                 process plan a strategy for a digital
                 marketing campaign that fits your project and make it a successful one. </p>
+
+              <!-- <div class="col">
+                <a href="#">
+                  <img src="../../assets/images/home_2021/round_arrow.png" class="icon_w301 float-right">
+                </a>
+              </div> -->
             </div>
           </div>
 
@@ -567,7 +536,7 @@
 
               <div class="row">
                 <div class="col float-left">
-                  <img src="../../assets/images/home_2021/Research.png">
+                  <img src="../../assets/images/home_2021/Research.png" class="icon_w30">
                 </div>
                 <div class="col float-right ml-auto">
                   <hr class="red_hr20">
@@ -588,7 +557,7 @@
             <div class="card-body">
               <div class="row">
                 <div class="col float-left">
-                  <img src="../../assets/images/home_2021/Plan.png">
+                  <img src="../../assets/images/home_2021/Plan.png" class="icon_w30">
                 </div>
                 <div class="col float-right ml-auto">
                   <hr class="red_hr20">
@@ -606,7 +575,7 @@
         </div>
       </div>
 
-      <br>
+      <br class="is_mob_br">
 
       <div class="services-card">
         <div class="card-deck">
@@ -615,7 +584,7 @@
             <div class="card-body">
               <div class="row">
                 <div class="col float-left">
-                  <img src="../../assets/images/home_2021/Movie Promotion.png">
+                  <img src="../../assets/images/home_2021/Movie Promotion.png" class="icon_w30">
                 </div>
                 <div class="col float-right ml-auto">
                   <hr class="red_hr20">
@@ -629,14 +598,14 @@
                 digital marketing channels, subchannels, or networks to promote your website, blogs, or application
                 organically or through paid promotions.</p>
 
-            </div>
+             </div>
           </div>
 
           <div class="card services-card-shadow">
             <div class="card-body">
               <div class="row">
                 <div class="col float-left">
-                  <img src="../../assets/images/home_2021/analysis.png">
+                  <img src="../../assets/images/home_2021/analysis.png" class="icon_w30">
                 </div>
                 <div class="col float-right ml-auto">
                   <hr class="red_hr20">
@@ -659,7 +628,7 @@
             <div class="card-body">
               <div class="row">
                 <div class="col float-left">
-                  <img src="../../assets/images/home_2021/Optimization.png">
+                  <img src="../../assets/images/home_2021/Optimization.png" class="icon_w30">
                 </div>
                 <div class="col float-right ml-auto">
                   <hr class="red_hr20">
@@ -688,10 +657,15 @@
 <div class="container-fluid" style="padding: 5% 0%;background-color: #EB2922;">
 
   <div class="col-md-6 mx-auto text-white text-center">
+    <div class="uvc-heading-spacer line_only" style="margin-bottom:12px;height:2px;">
+      <span class="uvc-headings-line"
+        style="border-style: solid; border-bottom-width: 2px; border-color: white; width: 30px; margin: 0px auto;"></span>
+    </div>
 
     <h2>Benefits of Digital Marketing</h2>
 
-    <p>No one will hire any company or service provider until they know the importance of hiring them or
+    <p class="common_font">No one will hire any company or service provider until they know the importance of hiring
+      them or
       without knowing the benefits for the same. There are in-numerous benefits of hiring any digital
       marketing agency or any SEO company in Bangalore.</p>
 
@@ -812,7 +786,6 @@
 
   </div>
 </div>
-
 <!--Our Digital Marketing Expertise  -->
 
 
@@ -1063,7 +1036,6 @@
 
 
 <!-- TURBULENT TIMES CALL FOR QUICK WINS  starts-->
-
 <div class="container mt-5">
 
   <div class="services text-center" #target>
@@ -1125,7 +1097,8 @@
           title="seo service providers in bangalore" width="100%">
 
         <h3>How you can get your email marketing done right</h3>
-        <p>Email is now the best and productive route for participation. When done right, real time e-mail marketing is
+
+        <p class="insight_para_h70">Email is now the best and productive route for participation. When done right, real time e-mail marketing is
           contextual personalization at its finest. </p>
 
         <a href="https://brandstory.in/blogs/how-you-can-get-your-email-marketing-done-right/" class="readmore">Read
@@ -1139,8 +1112,10 @@
           title="seo service providers in bangalore" width="100%">
 
         <h3>What happens when SEO and Inbound Marketing Combine</h3>
-        <p>Call it organic promotion, call it inbound advertising as well as content advertising - the practice of
+
+        <p class="insight_para_h70">Call it organic promotion, call it inbound advertising as well as content advertising - the practice of
           making valuable tips to create demand and bring an audience of buyer...</p>
+
         <a href="https://brandstory.in/blogs/what-happens-when-seo-and-inbound-marketing-combine/" class="readmore">Read
           More</a>
       </div>
@@ -1152,8 +1127,10 @@
           title="seo service providers in bangalore" width="100%">
 
         <h3>How Social Media Marketing Can Help Grow Your Company</h3>
-        <p>If you're a company owner, it is likely that you've already contemplated using social network marketing to
+
+        <p class="insight_para_h70">If you're a company owner, it is likely that you've already contemplated using social network marketing to
           help spread the word about your business.</p>
+
         <a href="https://brandstory.in/blogs/how-social-media-marketing-can-help-grow-your-company/"
           class="readmore">Read
           More</a>
@@ -1162,13 +1139,10 @@
 
   </div>
 </div>
-
 <!-- Insights end -->
 
 
-
 <!-- clients section start -->
-
 <div class="container mt-5">
 
   <div class="clients text-center">
@@ -1328,7 +1302,7 @@
     <div class="card-deck">
       <div class="card card-box-shadow">
         <div class="card-body">
-          <div class="text-center m-3">
+          <div class="text-center m-3 testimonial_card_h300">
             <i class="fa fa-quote-left "></i>
 
             <p class="card-text text-center">
@@ -1341,11 +1315,12 @@
             </p>
           </div>
 
-          <div class="text-center">
-            <img width="150" height="90" src="../../assets/images/home_2021/Teqstories 1.png"
-              class="vc_single_image-img attachment-medium" alt="seo in bangalore" title="seo in bangalore"
+          <div class="text-center testimonial_card_h200">
+            <img src="../../assets/images/home_2021/Teqstories 1.png"
+              class="vc_single_image-img attachment-medium testi_img" alt="seo in bangalore" title="seo in bangalore"
               sizes="100vw">
-            <p class="card-text text-center">
+
+            <p class="card-text text-center mt-3">
               Gopi<br>
               CEO<br>
               teqstories
@@ -1355,7 +1330,7 @@
       </div>
       <div class="card card-box-shadow">
         <div class="card-body">
-          <div class="text-center m-3">
+          <div class="text-center m-3 testimonial_card_h300">
             <i class="fa fa-quote-left "></i>
 
             <p class="card-text text-center">
@@ -1367,12 +1342,12 @@
 
           </div>
 
-          <div class="text-center">
-            <img width="150" height="90" src="../../assets/images/home_2021/hexrfactory 1.png"
-              class="vc_single_image-img attachment-medium" alt="seo in bangalore" title="seo in bangalore"
+          <div class="text-center testimonial_card_h200">
+            <img src="../../assets/images/home_2021/hexrfactory 1.png"
+              class="vc_single_image-img attachment-medium testi_img" alt="seo in bangalore" title="seo in bangalore"
               sizes="100vw">
 
-            <p class="card-text text-center">
+            <p class="card-text text-center mt-3">
               Praveen <br>
               CEO<br>
               HEXR Factory
@@ -1383,7 +1358,7 @@
       </div>
       <div class="card card-box-shadow">
         <div class="card-body">
-          <div class="text-center m-3">
+          <div class="text-center m-3 testimonial_card_h300">
             <i class="fa fa-quote-left "></i>
 
             <p class="card-text text-center">
@@ -1394,12 +1369,12 @@
             </p>
           </div>
 
-          <div class="text-center">
-            <img width="150" height="90" src="../../assets/images/home_2021/BHIVE-Square-Logo 1.png"
-              class="vc_single_image-img attachment-medium" alt="seo service providers in bangalore"
+          <div class="text-center testimonial_card_h200">
+            <img src="../../assets/images/home_2021/BHIVE-Square-Logo 1.png"
+              class="vc_single_image-img attachment-medium testi_img" alt="seo service providers in bangalore"
               title="seo service providers in bangalore" sizes="100vw">
 
-            <p class="card-text text-center">
+            <p class="card-text text-center mt-3">
               GoShesh Rao Paplikar -<br>
               Co-Founder & CEO<br>
               BHIVE Workspace
@@ -1416,9 +1391,7 @@
 <!-- clients section end -->
 
 <!-- FAQ -->
-
 <div class="container mt-5">
-
   <div class="clients text-center">
     <div class="uvc-heading-spacer line_only" style="margin-bottom:12px;height:2px;">
       <span class="uvc-headings-line"
@@ -1617,7 +1590,6 @@
   </div>
 
 </div>
-
 <!-- FAQ -->
 
 <br><br>
@@ -1640,7 +1612,7 @@
 
 
 <!-- Red banner starts-->
-<div class="container-fluid mt-5" style="background-color: #F7562E;">
+<div class="container-fluid mt-5 mpb_mt5" style="background-color: #F7562E;">
 
   <div class="col-md-8 mx-auto text-white">
     <div class="row py-5">
@@ -1663,16 +1635,20 @@
   </div>
 
 </div>
-
-
 <!-- Red banner ends-->
 
 <!-- map location -->
-
+<div class="container-fluid p-0">
+  <div class="col-md-12 mx-auto p-0">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.983500732647!2d77.637451!3d12.9561124!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf53f2681224f652!2sBrandstory%20Solutions%20Pvt.Ltd!5e0!3m2!1sen!2sin!4v1617634887986!5m2!1sen!2sin"
+      width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</div>
 <!-- map location -->
 
 <!-- pink banner starts -->
-<div class="container-fluid mt-5" style="background-color: #FCF0EA;">
+<div class="container-fluid" style="background-color: #FCF0EA;">
 
   <div class="col-md-9 text-center mx-auto py-5">
     <p>Become a nation wide contender in your business vertical with our SEO experience of more than a decade. As a
@@ -1684,11 +1660,10 @@
   </div>
 
 </div>
-
 <!-- pink banner starts -->
 
 
-
+<!-- Modal form -->
 <div class="col-sm-8">
   <ng-template #template>
     <div class="modal-header">
@@ -1772,6 +1747,8 @@
       <br>
     </div>
   </ng-template>
+
+
   <ng-template #templatedownload>
     <div class="modal-header">
       <h4 class="modal-title pull-left downloadtitle">I am interested! Share a copy with me</h4>

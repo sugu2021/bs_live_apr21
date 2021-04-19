@@ -120,6 +120,10 @@ import { RoiSeoKolkataComponent } from '../app/landing_pages/roi-seo-kolkata/roi
 import { RoiSeoCoimbatoreComponent } from '../app/landing_pages/roi-seo-coimbatore/roi-seo-coimbatore.component';
 import { RoiSeoChennaiComponent } from '../app/landing_pages/roi-seo-chennai/roi-seo-chennai.component';
 
+import { B2bmarketingChennaiComponent } from '../app/landing_pages/b2bmarketing-chennai/b2bmarketing-chennai.component';
+import { B2bmarketingCbeComponent } from '../app/landing_pages/b2bmarketing-cbe/b2bmarketing-cbe.component';
+import { B2bmarketingPuneComponent } from '../app/landing_pages/b2bmarketing-pune/b2bmarketing-pune.component';
+import { LogisticsdmaBangaloreComponent } from '../app/landing_pages/logisticsdma-bangalore/logisticsdma-bangalore.component';
 
 
 const _orig_prepareExternalUrl = PathLocationStrategy.prototype.prepareExternalUrl;
@@ -251,7 +255,13 @@ Location.stripTrailingSlash = function (url) {
     RoiSeoKochiComponent,
     RoiSeoKolkataComponent,
     RoiSeoCoimbatoreComponent,
-    RoiSeoChennaiComponent
+    RoiSeoChennaiComponent,
+    B2bmarketingChennaiComponent,
+    B2bmarketingCbeComponent,
+    B2bmarketingPuneComponent,
+    LogisticsdmaBangaloreComponent,
+
+
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'my-app' }),
@@ -664,6 +674,12 @@ Location.stripTrailingSlash = function (url) {
      { path: 'seo-company-in-kolkata/', component: RoiSeoKolkataComponent },
      { path: 'seo-company-in-coimbatore/', component: RoiSeoCoimbatoreComponent },
      { path: 'seo-company-in-chennai/', component: RoiSeoChennaiComponent },
+
+     { path: 'b2b-marketing-companies-in-chennai/', component: B2bmarketingChennaiComponent },
+     { path: 'b2b-marketing-companies-in-coimbatore/', component: B2bmarketingCbeComponent },
+     { path: 'b2b-marketing-companies-in-pune/', component: B2bmarketingPuneComponent },
+     { path: 'logistics-digital-marketing-agency-bangalore/', component: LogisticsdmaBangaloreComponent },
+
 
 
 

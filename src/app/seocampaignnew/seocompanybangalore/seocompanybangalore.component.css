@@ -1,6 +1,6 @@
 .row{
-    margin-right: -0px; 
-    margin-left: -0px; 
+    margin-right: -0px;
+    margin-left: -0px;
 }
 h2 a{
    color: #212529;
@@ -8,7 +8,7 @@ h2 a{
    background-color: transparent;}
 .seocolin img{align-items: center;width:100% !important;}
 
-.branding-get-quote-text{    
+.branding-get-quote-text{
     color: #ffffff;
     text-align: justify;
     font-size: 20px ;
@@ -17,10 +17,10 @@ h2 a{
 
 .design-brand-title{
     font-weight: normal;
-    margin-bottom: 25px; 
+    margin-bottom: 25px;
 }
 
-.design-brand-sub{ 
+.design-brand-sub{
     line-height: 26px !important;
     color: #676766;
     font-size: 18px !important;
@@ -56,20 +56,65 @@ h2 a{
     animation-name: topFadeOut;
     animation-duration: 5s;
 }
- 
+
+.card_h_51{
+    height: auto !important;
+    max-height: auto !important;
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+    transform: translate3d(0,-2px,0);
+    border: none;
+}
+
+.list_seo_text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.card_ul01{
+    list-style: none;
+    padding: inherit;
+}
+
+.a_seo_text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000 !important;
+}
+.better_dc{
+    color: #000;
+    background: #fcf0ea;
+}
+.a_seo_text:hover{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #0056b3 !important;
+}
+
 @keyframes topFadeOut {
-    0% { 
+    0% {
         bottom: 10rem;
         opacity: 0;
       }
-    
-      75% { 
+
+      75% {
         bottom: 10%;
         opacity: 1;
-      }           
-      
+      }
+
   }
-  
+
   .services-card-shadow{
     box-shadow: 0px 5px 13px 4px rgba(239, 239, 239, 0.8);
     transform: translate3d(0,-2px,0);
@@ -92,7 +137,7 @@ h2 a{
 
 @-webkit-keyframes floatBubble {
     0% {
-        top: 50%; 
+        top: 50%;
     }
     100% {
         top: 25%;
@@ -100,7 +145,7 @@ h2 a{
 }
 @keyframes floatBubble {
     0% {
-        top: 50%; 
+        top: 50%;
     }
     100% {
         top: 25%;
@@ -167,7 +212,7 @@ h2 a{
 
 
 .banner-left-outerwrap{
-   
+
 }
 
 .banner-request-btn{
@@ -305,7 +350,7 @@ span.red-txt {
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
-    line-height: normal;    
+    line-height: normal;
     color: #FFFFFF;
 }
 
@@ -314,7 +359,7 @@ span.red-txt {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 30px;  
+    line-height: 30px;
 }
 
 
@@ -324,7 +369,7 @@ span.red-txt {
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
-    line-height: normal; 
+    line-height: normal;
     color: #000000;
 }
 
@@ -333,7 +378,7 @@ span.red-txt {
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
-    line-height: normal; 
+    line-height: normal;
     color: #ffffff;
 }
 
@@ -342,7 +387,7 @@ span.red-txt {
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
-    line-height: normal; 
+    line-height: normal;
     color: #000000;
 }
 
@@ -351,7 +396,7 @@ span.red-txt {
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
-    line-height: normal; 
+    line-height: normal;
     color: #ffffff;
 }
 
@@ -360,7 +405,7 @@ span.red-txt {
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
-    line-height: normal; 
+    line-height: normal;
     color: #000000;
 }
 
@@ -369,7 +414,7 @@ span.red-txt {
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
-    line-height: normal; 
+    line-height: normal;
     color: #ffffff;
 }
 
@@ -432,13 +477,13 @@ span.red-txt {
 .smmimg{
     width:100%;
 }
-.faq h4{ 
+.faq h4{
    /* margin: 5px 0 15px;
     padding-top: 15px !important;
     line-height: 34px !important; */
   }
 
-  .faq p{ 
+  .faq p{
     line-height: 26px !important;
   }
   .faq h2{font-size:24px;    font-family: Poppins;}
@@ -456,4 +501,36 @@ span.red-txt {
 }
 button.btn.btn-primary.ngbs-dropdown.container{
     box-shadow: none !important;
+}
+
+
+.a_pointer{
+  cursor: pointer !important;
+}
+
+.modal-dialog {
+  background: none !important;
+  padding: 0px !important;
+}
+
+
+.mod_body_custom  {
+    padding: 5% !important;
+    text-align: justify !important;
+    margin: -25px 0px 0px 0px !important;
+}
+
+.modal-content {
+  background-color: #fff;
+  margin-left: 0px !important;
+  margin-top: 20% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-content {
+    background-color: #fff;
+    margin-left: 0px !important;
+    margin-top: 20% !important;
+  }
+
 }
